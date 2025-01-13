@@ -31,7 +31,7 @@ postgresql:
 
 Upgrade your chart for changing the Docker image to this one.  
 Log in the postgres-0 container
-run the necessary commands for upgrading the database to v16. Or if you are lucky make a full backup and use `/upgrade-bitnami-16-to-17.sh`
+run the necessary commands for upgrading the database to v17. Or if you are lucky make a full backup and use `/upgrade-bitnami-16-to-17.sh`
 
 ### if you loose your datas ?
 
