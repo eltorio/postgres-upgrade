@@ -1,6 +1,6 @@
 FROM postgres:16 AS previous
 FROM postgres:17
-
+ENV POSTGRES_ROOT=/bitnami/postgresql
 ENV FROM_VERSION=16
 ENV TO_VERSION=17
 USER root
