@@ -4,8 +4,8 @@
 # Don't forget to backup your data before running this script
 
 POSTGRES_ROOT=${POSTGRES_ROOT:-"/bitnami/postgresql"}
-FROM_VERSION={$FROM_VERSION:-"16"}
-TO_VERSION={$TO_VERSION:-"17"}
+FROM_VERSION=${FROM_VERSION:-"16"}
+TO_VERSION=${TO_VERSION:-"17"}
 
 echo "Upgrading PostgreSQL from $FROM_VERSION to $TO_VERSION"
 echo "Make sure you have a backup of your data before running this script"
