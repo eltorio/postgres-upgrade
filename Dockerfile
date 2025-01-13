@@ -1,4 +1,4 @@
-FROM postgres:16 as previous
+FROM postgres:16 AS previous
 FROM postgres:17
 USER root
 COPY --from=previous /usr/lib/postgresql/16 /usr/lib/postgresql/16
