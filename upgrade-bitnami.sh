@@ -1,6 +1,6 @@
 #!/bin/bash
-FROM_VERSIOON=${$FROM_VERSION:16}
-TO_VERSION=${$TO_VERSION:17}
+FROM_VERSION={$FROM_VERSION:-"16"}
+TO_VERSION={$TO_VERSION:-"17"}
 cd /tmp || exit
 mv /bitnami/postgresql/data /bitnami/postgresql/data$FROM_VERSION
 mkdir /bitnami/postgresql/data
